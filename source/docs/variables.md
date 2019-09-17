@@ -8,7 +8,7 @@ section: content
 # Variables {#variables}
 
 Variables let you store information got from expressions, literal values or a actions.
-To understand variables you’ll also want to read [conditionals](conditionals) and [loops](loops).
+To understand variables you’ll also want to read [conditionals](/docs/conditionals) and [loops](/docs/loops).
 
 ## Creating valid variable names
 

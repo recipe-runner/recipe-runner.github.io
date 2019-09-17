@@ -40,7 +40,7 @@ the pattern `Action: {{number}}`.
 
 Sometimes, it is useful to execute an action and save the return value in a variable for use
 in later actions. In that case, a new variable could be registered with result. See 
-[Registering variables](variables/#registering-result-action).
+[Registering variables](/docs/variables/#registering-result-action).
 
 ## Module methods
 

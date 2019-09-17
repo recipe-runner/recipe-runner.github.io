@@ -7,16 +7,16 @@ section: content
 
 # Steps {#steps}
 
-Steps are [blocks](recipes/#blocks) that group one or more actions. That way, a set of actions
+Steps are [blocks](/docs/recipes/#blocks) that group one or more actions. That way, a set of actions
 could be executed several times or make their execution conditional on a boolean 
-[expression](expressions). By composing a step of multiples actions, it's possible to 
+[expression](/docs/expressions). By composing a step of multiples actions, it's possible to 
 build more complex process.
 
 ## How are steps executed?
 
-Steps are executed sequentially one at a time. When they have a [condition](conditionals) 
+Steps are executed sequentially one at a time. When they have a [condition](/docs/conditionals) 
 sentence `where`, steps are only executed if the condition expression is evaluated to `true`.
-When a step has a `loop` sentence (see [loops](loops)), the loop expression is resolved
+When a step has a `loop` sentence (see [loops](/docs/loops)), the loop expression is resolved
 and the step is evaluated as much times as elements has the loop. If the `loop` is combined
 with a `where` expression, then the conditional expression is processed separately for each
 item.

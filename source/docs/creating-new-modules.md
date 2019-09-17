@@ -99,7 +99,7 @@ contains information about the method: name and parameters as well as some usefu
 ### The class ExecutionResult
 
 [This class](https://github.com/recipe-runner/recipe-runner/blob/master/src/Module/Invocation/ExecutionResult.php)
-Modules return a data structure that can be registered into a variable (see [actions](actions/#registering_execution)). That data structure is a JSON with the information the module may consider
+Modules return a data structure that can be registered into a variable (see [actions](/docs/actions/#registering_execution)). That data structure is a JSON with the information the module may consider
 appropriate. In the case of the `print` method, `message` is a parameter that contains the text
 it displayed.
 

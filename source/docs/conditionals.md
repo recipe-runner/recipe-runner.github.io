@@ -7,7 +7,7 @@ section: content
 
 # Conditionals
 
-Often the result of a [block](recipes/#blocks) may depend on the value of a variable or
+Often the result of a [block](/docs/recipes/#blocks) may depend on the value of a variable or
 previous action result. This topic covers how conditionals are used in recipes.
 
 ## The when statement

@@ -7,7 +7,7 @@ section: content
 
 # Developers: embedding Recipe Runner core
 
-> This is a work-in-progress page. More documetation need to be added.
+> This is a work-in-progress page. More documentation need to be added.
 
 Embedding Recipe Runner into your project let it the ability to respond to events executing recipes. 
 You can think of it like a new way of extending your applications.

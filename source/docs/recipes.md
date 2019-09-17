@@ -13,7 +13,7 @@ of one or more steps which in turn are made up of actions.
 
 ## Steps {#steps}
 
-A step is a building [block](#blocks) with a set of actions that will be performed. Steps could be executed several times if they have a `loop` sentence inside (see [loops](loops)).
+A step is a building [block](#blocks) with a set of actions that will be performed. Steps could be executed several times if they have a `loop` sentence inside (see [loops](/docs/loops)).
 
 ## Actions {#actions}
 

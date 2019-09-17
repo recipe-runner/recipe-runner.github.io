@@ -11,5 +11,5 @@ Welcome to the Recipe Runner developers guide.
 
 **Topics**
 
-* [Creating new modules](creating-new-modules).
-* [Using Recipe Runner Core in your project](embedding-recipe-runner-core)
+* [Creating new modules](/docs/creating-new-modules).
+* [Using Recipe Runner Core in your project](/docs/embedding-recipe-runner-core)

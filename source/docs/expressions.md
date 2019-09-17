@@ -20,7 +20,7 @@ Expression used by Recipe Runner are based on [Symfony ExpressionLanguage compon
 
 ## Calling functions
 
-Recipe Runner has a set of built-in functions that may be used in expressions. See [Functions](functions).
+Recipe Runner has a set of built-in functions that may be used in expressions. See [Functions](/docs/functions).
 
 ```yaml
 when: foo(1) > 1

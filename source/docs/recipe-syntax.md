@@ -55,18 +55,18 @@ Each method has it own signature.
 
 ## `step.<action>.when`
 
-(`string`) **Optional** Boolean expression. See [conditionals](conditionals). e.g: `foo != 1`
+(`string`) **Optional** Boolean expression. See [conditionals](/docs/conditionals). e.g: `foo != 1`
 
 ## `step.<action>.loop`
 
 (`array|string`) **Optional** Array or list expression (an expression of which
-result is an array). See [loops](loops).
+result is an array). See [loops](/docs/loops).
 
 ## `step.when`
 
-(`string`) **Optional** Boolean expression. See [conditionals](conditionals). e.g: `foo != 1`
+(`string`) **Optional** Boolean expression. See [conditionals](/docs/conditionals). e.g: `foo != 1`
 
 ## `step.loop` 
 
 (`array|string`) **Optional** Array or list expression (an expression of which
-result is an array). See [loops](loops).
+result is an array). See [loops](/docs/loops).

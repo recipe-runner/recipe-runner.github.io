@@ -86,7 +86,7 @@ steps:
 
 ## Loops and conditionals
 
-Bear in mind that the `when` (see [conditionals](conditionals)) statement is processed
+Bear in mind that the `when` (see [conditionals](/docs/conditionals)) statement is processed
 separately for each item in the loop. That means a block will be executed only if `when`
 expression is true. Otherwise, the iteration will be marked as `skipped`.
 
