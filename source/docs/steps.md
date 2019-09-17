@@ -7,14 +7,14 @@ section: content
 
 # Steps {#steps}
 
-Steps are [blocks](recipes/#blocks) that group one or more tasks. That way, a set of tasks
+Steps are [blocks](recipes/#blocks) that group one or more actions. That way, a set of actions
 could be executed several times or make their execution conditional on a boolean 
-[expression](expressions). By composing a step of multiples tasks, it's possible to 
+[expression](expressions). By composing a step of multiples actions, it's possible to 
 build more complex process.
 
 ## How are steps executed?
 
-Steps are executed sequentially one at a time. When they have a [condition](conditions) 
+Steps are executed sequentially one at a time. When they have a [condition](conditionals) 
 sentence `where`, steps are only executed if the condition expression is evaluated to `true`.
 When a step has a `loop` sentence (see [loops](loops)), the loop expression is resolved
 and the step is evaluated as much times as elements has the loop. If the `loop` is combined
@@ -39,6 +39,6 @@ steps:
 ```
 
 Every step should have a name, which is included in the output from running the recipe.
-This is human readable output, and so it is useful to provide good descriptions of each action.
+This is human readable output, so it is useful to provide good descriptions of each step.
 If the name is not provided though, a name will be generated automatically following 
 the pattern `Step: {{number}}`.

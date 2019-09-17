@@ -6,7 +6,7 @@ return [
     'siteName' => 'Recipe Runner',
     'siteDescription' => 'Recipe Runner let you automate tasks and extend PHP applications',
 
-    'phar_file_url' => 'https://github.com/recipe-runner/rr-cli/releases/rr.phar',
+    'phar_file_url' => 'https://github.com/recipe-runner/rr-cli/releases/download/1.0.0-alpha1/rr.phar',
 
     // Algolia DocSearch credentials
     'docsearchApiKey' => '',

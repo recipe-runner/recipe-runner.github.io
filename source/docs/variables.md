@@ -7,7 +7,7 @@ section: content
 
 # Variables {#variables}
 
-Variables let you store information got from expressions, literal values or a tasks.
+Variables let you store information got from expressions, literal values or a actions.
 To understand variables you’ll also want to read [conditionals](conditionals) and [loops](loops).
 
 ## Creating valid variable names
@@ -19,7 +19,7 @@ Variables should always start with a letter.
 
 `foo` and `foo_name` are good variable names.
 
-## Registering variables {#registering-varia}
+## Registering variables {#registering-variables}
 
 Variables could be registered using the method `register_variables`. This method
 is part of the [Recipe Runner Core](https://github.com/recipe-runner/recipe-runner)
@@ -38,10 +38,10 @@ steps:
 
 > The method "register_variables" let you register variables and they will be available from that moment on.
 
-## Registering the result of a task {#registering-result-task}
+## Registering the result of an action {#registering-result-action}
 
-Sometimes, it is useful to execute a task and save the return value in a variable for use
-in later tasks. In that case, register a variable is very useful:
+Sometimes, it is useful to execute an action and save the return value in a variable for use
+in later actions. In that case, register a variable is very useful:
 
 ```yaml
 steps:
@@ -57,7 +57,7 @@ steps:
 
 ## Accessing variable data {#accessing-variable-data}
 
-Once you've defined variables, you can use them in tasks as argument of methods as well
+Once you've defined variables, you can use them in actions as argument of methods as well
 as part of `loop` and `when` expressions. Also variables are available for steps and
 they could be used as part of `loop` and `when` expressions.
 

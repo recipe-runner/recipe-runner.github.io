@@ -1,6 +1,6 @@
 ---
 title: Loops
-description: Loops in steps and tasks
+description: Loops in steps and actions
 extends: _layouts.documentation
 section: content
 ---
@@ -85,6 +85,7 @@ steps:
 ```
 
 ## Loops and conditionals
+
 Bear in mind that the `when` (see [conditionals](conditionals)) statement is processed
 separately for each item in the loop. That means a block will be executed only if `when`
 expression is true. Otherwise, the iteration will be marked as `skipped`.
@@ -102,10 +103,11 @@ steps:
     when: step_loop['index'] == 'one'
 ```
 
-In the previous example, the step "The loop" has a loop with three elements but the task
+In the previous example, the step "The loop" has a loop with three elements but the action
 "Display data" only be executed one time when the value of the *index* is "one"
 
 ## Registering variables with a loop
+
 When you use `register` with a loop, the data structure placed in the variable registered will
 contain a list of all responses from the module:
 

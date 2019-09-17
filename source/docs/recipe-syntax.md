@@ -18,7 +18,7 @@ the recipe in execution. If this values is not found the default value will be *
 ## `extra`
 (`array`) **Optional** Extra information about the recipe. RR use this value to describe
 which packages will be used by the recipe. Packages a are Composer Packages availables on
-[Packagist](https://packagist.org/). Method executed by tasks are defined in modules and
+[Packagist](https://packagist.org/). Method executed by actions are defined in modules and
 those modules are distributed as Composer packages. The following example show that the
 recipe require the [`io-module`](https://packagist.org/packages/recipe-runner/io-module).
 The part at the right of the colon indicates the version desired.
@@ -50,7 +50,7 @@ be assigned automatically following the pattern `Action {{number}}`.
 
 ## `step.<action>.<method>`
 
-(`string`) **Required** The name of the method that will be executed by the task.
+(`string`) **Required** The name of the method that will be executed by the action.
 Each method has it own signature.
 
 ## `step.<action>.when`

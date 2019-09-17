@@ -8,7 +8,7 @@ section: content
 # Getting Started {#getting-started}
 
 RR CLI tool (RR stands for Recipe Runner) is a tool that let you automate
-tasks and extend applications by using special YAML files called *recipes*.
+tasks and extend PHP applications by using special YAML files called *recipes*.
 
 > Please, be aware this project is in a early stage so it is subject to change.
 

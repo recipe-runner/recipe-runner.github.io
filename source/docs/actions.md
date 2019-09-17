@@ -7,8 +7,8 @@ section: content
 
 # Actions
 
-Each step contains a list of task. Task are executed in order one at a time.
-**The goal of each task is to execute a method of a module**, with very specific arguments. 
+Each step contains a list of actions. Actions are executed in order one at a time.
+**The goal of each action is to execute a method of a module**, with very specific arguments. 
 Variables and functions can be used in arguments to modules.
 
 ```yaml
@@ -32,19 +32,19 @@ steps:
 ```
 
 Every action should have a name, which is included in the output from running the recipe.
-This is human readable output, and so it is useful to provide good descriptions of each action.
+This is human readable output, so it is useful to provide good descriptions of each action.
 If the name is not provided though, a name will be generated automatically following
-the pattern `Task: {{number}}`.
+the pattern `Action: {{number}}`.
 
 ## Registering the result of a module execution {#registering_execution}
 
-Sometimes, it is useful to execute a task and save the return value in a variable for use
-in later tasks. In that case, a new variable could be registered with result. See 
-[Registering variables](variables/#registering-result-task).
+Sometimes, it is useful to execute an action and save the return value in a variable for use
+in later actions. In that case, a new variable could be registered with result. See 
+[Registering variables](variables/#registering-result-action).
 
 ## Module methods
 
-Module methods consists of a method name and it might has arguments.
+Module methods consist of a method name and it might has arguments.
 
 ```yaml
 actions:

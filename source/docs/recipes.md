@@ -8,22 +8,21 @@ section: content
 # Recipes {#recipes}
 
 A recipe is a set of instructions executed sequentially written in a [YAML](https://en.wikipedia.org/wiki/YAML) file that let you 
-build complex process to automatize task or extend your application. Recipes are made up
+build complex process to automatize tasks or extend your PHP applications. Recipes are made up
 of one or more steps which in turn are made up of actions.
 
 ## Steps {#steps}
 
-A step is a building [block](#blocks) with a set of actions that will be performed. Steps could be executed several times if they
-have a `loop` sentence inside.
+A step is a building [block](#blocks) with a set of actions that will be performed. Steps could be executed several times if they have a `loop` sentence inside (see [loops](loops)).
 
 ## Actions {#actions}
 
 Actions are the smallest building [block](#blocks) and each one has a module method that will be invoked
-when the action is run. The goal of each task is to execute a module, with very specific arguments.
+when the action is run. The goal of each action is to execute a module, with very specific arguments.
 Variables can be used in arguments to modules. You can create your own modules or use modules shared
 through [Packagist](https://packagist.org/).
 To use an action in a recipe you must include it in a step. Similar to steps, actions could be
-executed several if they include a sentence `loop`.
+executed several times if they include a sentence `loop`.
 
 ## Blocs {#blocks}
 

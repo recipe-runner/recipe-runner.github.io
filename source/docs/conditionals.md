@@ -1,6 +1,6 @@
 ---
 title: Conditionals
-description: Conditionals in steps and tasks
+description: Conditionals in steps and actions
 extends: _layouts.documentation
 section: content
 ---
@@ -8,7 +8,7 @@ section: content
 # Conditionals
 
 Often the result of a [block](recipes/#blocks) may depend on the value of a variable or
-previous task result. This topic covers how conditionals are used in recipes.
+previous action result. This topic covers how conditionals are used in recipes.
 
 ## The when statement
 

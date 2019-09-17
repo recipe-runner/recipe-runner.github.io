@@ -32,7 +32,7 @@ variable `name` does not exist.
 ## version_compare {#version_compare}
 
 Compares two version strings following the pattern `mayor.minor.patch`.
-This function may be used for executing tasks only if the version of PHP meets the constraint.
+This function may be used for executing actions only if the version of PHP meets the constraint.
 
 ```yaml
 when: "version_compare(php_version, '>', '7.0.0')"
