@@ -11,5 +11,10 @@ Requires: PHP +7.1.3 and NPM.
 ```bash
 composer install
 npm install
-npm run watch
+npm run dev
+composer godev
 ```
+
+If you are running this site on a Vagrant environment such as Homestead, you may
+get an error installing npm packages due to symlinks, see https://github.com/yarnpkg/yarn/issues/4908.
+If so, run `npm install --no-bin-links` instead of `npm install`.
