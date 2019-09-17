@@ -25,7 +25,7 @@
                     <!-- Insert analytics code here -->
         
         <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i" rel="stylesheet">
-        <link rel="stylesheet" href="/assets/build/css/main.css?id=1cdaad4e289d98b1052b">
+        <link rel="stylesheet" href="/assets/build/css/main.css?id=056bfad0f144804bd3ed">
 
             </head>
 
@@ -228,7 +228,7 @@
 
         <div class="w-full lg:w-3/5 break-words pb-16 lg:pl-4" v-pre>
             <h1 id="variables">Variables</h1>
-<p>Variables let you store information got from expressions, literal values or a tasks.
+<p>Variables let you store information got from expressions, literal values or a actions.
 To understand variables you’ll also want to read <a href="conditionals">conditionals</a> and <a href="loops">loops</a>.</p>
 <h2>Creating valid variable names</h2>
 <p>Variable names should be letters, numbers, and underscores.
@@ -237,7 +237,7 @@ Variables should always start with a letter.</p>
 <p>The use of underscore <code>_</code> instead of hyphen <code>-</code> is encouraged.</p>
 </blockquote>
 <p><code>foo</code> and <code>foo_name</code> are good variable names.</p>
-<h2 id="registering-varia">Registering variables</h2>
+<h2 id="registering-variables">Registering variables</h2>
 <p>Variables could be registered using the method <code>register_variables</code>. This method
 is part of the <a href="https://github.com/recipe-runner/recipe-runner">Recipe Runner Core</a>
 and as arguments it expects a dictionary which maps keys (variable names) to values.</p>
@@ -252,9 +252,9 @@ and as arguments it expects a dictionary which maps keys (variable names) to val
 <blockquote>
 <p>The method &quot;register_variables&quot; let you register variables and they will be available from that moment on.</p>
 </blockquote>
-<h2 id="registering-result-task">Registering the result of a task</h2>
-<p>Sometimes, it is useful to execute a task and save the return value in a variable for use
-in later tasks. In that case, register a variable is very useful:</p>
+<h2 id="registering-result-action">Registering the result of an action</h2>
+<p>Sometimes, it is useful to execute an action and save the return value in a variable for use
+in later actions. In that case, register a variable is very useful:</p>
 <pre><code class="language-yaml">steps:
   - name: "Current directory"
     actions:
@@ -265,7 +265,7 @@ in later tasks. In that case, register a variable is very useful:</p>
         # Display the current directory
       - write: "Current dir: {{registered['current_dir']['output']}}"</code></pre>
 <h2 id="accessing-variable-data">Accessing variable data</h2>
-<p>Once you've defined variables, you can use them in tasks as argument of methods as well
+<p>Once you've defined variables, you can use them in actions as argument of methods as well
 as part of <code>loop</code> and <code>when</code> expressions. Also variables are available for steps and
 they could be used as part of <code>loop</code> and <code>when</code> expressions.</p>
 <p>When you create a variable, you are registering a variable in the execution context
@@ -324,7 +324,7 @@ in which the recipe is running.</p>
 </section>
         </main>
 
-        <script src="/assets/build/js/main.js?id=79fcc155f4c565f026e5"></script>
+        <script src="/assets/build/js/main.js?id=bb56897b98ee16fac083"></script>
 
         <script>
     const navMenu = {

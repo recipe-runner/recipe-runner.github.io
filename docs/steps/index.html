@@ -25,7 +25,7 @@
                     <!-- Insert analytics code here -->
         
         <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i" rel="stylesheet">
-        <link rel="stylesheet" href="/assets/build/css/main.css?id=1cdaad4e289d98b1052b">
+        <link rel="stylesheet" href="/assets/build/css/main.css?id=056bfad0f144804bd3ed">
 
             </head>
 
@@ -228,12 +228,12 @@
 
         <div class="w-full lg:w-3/5 break-words pb-16 lg:pl-4" v-pre>
             <h1 id="steps">Steps</h1>
-<p>Steps are <a href="recipes/#blocks">blocks</a> that group one or more tasks. That way, a set of tasks
+<p>Steps are <a href="recipes/#blocks">blocks</a> that group one or more actions. That way, a set of actions
 could be executed several times or make their execution conditional on a boolean
-<a href="expressions">expression</a>. By composing a step of multiples tasks, it's possible to
+<a href="expressions">expression</a>. By composing a step of multiples actions, it's possible to
 build more complex process.</p>
 <h2>How are steps executed?</h2>
-<p>Steps are executed sequentially one at a time. When they have a <a href="conditions">condition</a>
+<p>Steps are executed sequentially one at a time. When they have a <a href="conditionals">condition</a>
 sentence <code>where</code>, steps are only executed if the condition expression is evaluated to <code>true</code>.
 When a step has a <code>loop</code> sentence (see <a href="loops">loops</a>), the loop expression is resolved
 and the step is evaluated as much times as elements has the loop. If the <code>loop</code> is combined
@@ -254,14 +254,14 @@ steps:
       - run: echo ahoy there
     when: os_family == "Linux"</code></pre>
 <p>Every step should have a name, which is included in the output from running the recipe.
-This is human readable output, and so it is useful to provide good descriptions of each action.
+This is human readable output, so it is useful to provide good descriptions of each step.
 If the name is not provided though, a name will be generated automatically following
 the pattern <code>Step: {{number}}</code>.</p>        </div>
     </div>
 </section>
         </main>
 
-        <script src="/assets/build/js/main.js?id=79fcc155f4c565f026e5"></script>
+        <script src="/assets/build/js/main.js?id=bb56897b98ee16fac083"></script>
 
         <script>
     const navMenu = {

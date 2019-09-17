@@ -25,7 +25,7 @@
                     <!-- Insert analytics code here -->
         
         <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i" rel="stylesheet">
-        <link rel="stylesheet" href="/assets/build/css/main.css?id=1cdaad4e289d98b1052b">
+        <link rel="stylesheet" href="/assets/build/css/main.css?id=056bfad0f144804bd3ed">
 
             </head>
 
@@ -228,8 +228,8 @@
 
         <div class="w-full lg:w-3/5 break-words pb-16 lg:pl-4" v-pre>
             <h1>Actions</h1>
-<p>Each step contains a list of task. Task are executed in order one at a time.
-<strong>The goal of each task is to execute a method of a module</strong>, with very specific arguments.
+<p>Each step contains a list of actions. Actions are executed in order one at a time.
+<strong>The goal of each action is to execute a method of a module</strong>, with very specific arguments.
 Variables and functions can be used in arguments to modules.</p>
 <pre><code class="language-yaml">steps:
   - name: "OS Info"
@@ -245,15 +245,15 @@ an environment variable needs to be displayed, the function <code>env</code> can
       - name: "Shell"
         write: "Shell path: {{env('SHELL')}}" # Value of the variable "SHELL"</code></pre>
 <p>Every action should have a name, which is included in the output from running the recipe.
-This is human readable output, and so it is useful to provide good descriptions of each action.
+This is human readable output, so it is useful to provide good descriptions of each action.
 If the name is not provided though, a name will be generated automatically following
-the pattern <code>Task: {{number}}</code>.</p>
+the pattern <code>Action: {{number}}</code>.</p>
 <h2 id="registering_execution">Registering the result of a module execution</h2>
-<p>Sometimes, it is useful to execute a task and save the return value in a variable for use
-in later tasks. In that case, a new variable could be registered with result. See
-<a href="variables/#registering-result-task">Registering variables</a>.</p>
+<p>Sometimes, it is useful to execute an action and save the return value in a variable for use
+in later actions. In that case, a new variable could be registered with result. See
+<a href="variables/#registering-result-action">Registering variables</a>.</p>
 <h2>Module methods</h2>
-<p>Module methods consists of a method name and it might has arguments.</p>
+<p>Module methods consist of a method name and it might has arguments.</p>
 <pre><code class="language-yaml">actions:
   - name: Shell
     run:
@@ -283,7 +283,7 @@ This kind of expression must begin and end with curly braces without any space b
 </section>
         </main>
 
-        <script src="/assets/build/js/main.js?id=79fcc155f4c565f026e5"></script>
+        <script src="/assets/build/js/main.js?id=bb56897b98ee16fac083"></script>
 
         <script>
     const navMenu = {
