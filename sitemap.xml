@@ -2,92 +2,97 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
  <url>
   <loc>https://recipe-runner.yosymfony.com/404.html</loc>
-  <lastmod>2019-09-17T15:13:37+00:00</lastmod>
+  <lastmod>2019-09-17T15:38:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+ </url>
+ <url>
+  <loc>https://recipe-runner.yosymfony.com/CNAME</loc>
+  <lastmod>2019-09-17T15:38:50+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://recipe-runner.yosymfony.com/docs/actions</loc>
-  <lastmod>2019-09-17T15:13:37+00:00</lastmod>
+  <lastmod>2019-09-17T15:38:50+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://recipe-runner.yosymfony.com/docs/conditionals</loc>
-  <lastmod>2019-09-17T15:13:37+00:00</lastmod>
+  <lastmod>2019-09-17T15:38:50+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://recipe-runner.yosymfony.com/docs/creating-new-modules</loc>
-  <lastmod>2019-09-17T15:13:37+00:00</lastmod>
+  <lastmod>2019-09-17T15:38:50+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://recipe-runner.yosymfony.com/docs/developers</loc>
-  <lastmod>2019-09-17T15:13:37+00:00</lastmod>
+  <lastmod>2019-09-17T15:38:50+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://recipe-runner.yosymfony.com/docs/embedding-recipe-runner-core</loc>
-  <lastmod>2019-09-17T15:13:37+00:00</lastmod>
+  <lastmod>2019-09-17T15:38:50+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://recipe-runner.yosymfony.com/docs/expressions</loc>
-  <lastmod>2019-09-17T15:13:37+00:00</lastmod>
+  <lastmod>2019-09-17T15:38:50+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://recipe-runner.yosymfony.com/docs/functions</loc>
-  <lastmod>2019-09-17T15:13:37+00:00</lastmod>
+  <lastmod>2019-09-17T15:38:50+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://recipe-runner.yosymfony.com/docs/getting-started</loc>
-  <lastmod>2019-09-17T15:13:37+00:00</lastmod>
+  <lastmod>2019-09-17T15:38:50+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://recipe-runner.yosymfony.com/docs/io-module</loc>
-  <lastmod>2019-09-17T15:13:37+00:00</lastmod>
+  <lastmod>2019-09-17T15:38:50+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://recipe-runner.yosymfony.com/docs/loops</loc>
-  <lastmod>2019-09-17T15:13:37+00:00</lastmod>
+  <lastmod>2019-09-17T15:38:50+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://recipe-runner.yosymfony.com/docs/modules</loc>
-  <lastmod>2019-09-17T15:13:37+00:00</lastmod>
+  <lastmod>2019-09-17T15:38:50+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://recipe-runner.yosymfony.com/docs/recipe-syntax</loc>
-  <lastmod>2019-09-17T15:13:37+00:00</lastmod>
+  <lastmod>2019-09-17T15:38:50+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://recipe-runner.yosymfony.com/docs/recipes</loc>
-  <lastmod>2019-09-17T15:13:37+00:00</lastmod>
+  <lastmod>2019-09-17T15:38:50+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://recipe-runner.yosymfony.com/docs/steps</loc>
-  <lastmod>2019-09-17T15:13:37+00:00</lastmod>
+  <lastmod>2019-09-17T15:38:50+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://recipe-runner.yosymfony.com/docs/system-module</loc>
-  <lastmod>2019-09-17T15:13:37+00:00</lastmod>
+  <lastmod>2019-09-17T15:38:50+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://recipe-runner.yosymfony.com/docs/variables</loc>
-  <lastmod>2019-09-17T15:13:37+00:00</lastmod>
+  <lastmod>2019-09-17T15:38:50+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://recipe-runner.yosymfony.com</loc>
-  <lastmod>2019-09-17T15:13:37+00:00</lastmod>
+  <lastmod>2019-09-17T15:38:50+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
 </urlset>
